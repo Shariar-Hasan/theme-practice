@@ -1,0 +1,266 @@
+body,h1,h2,h3,h4,h5,h6{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.navbar .nav-item .dropdown-menu{
+    transition: all .5s ease-in-out;
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 6;
+}
+.nav-item:hover .dropdown-menu{
+    display: block;
+    transition: all .5s ease-in-out;
+    opacity: 1;
+    visibility: visible;
+}
+/* header  */
+.own-header{
+    padding: 15px;
+    font-size: 15px;
+}
+.own-header .navbar-brand{
+    font-size: 25px;
+    font-weight: 500;
+}
+.own-header span{
+    display: inline-block;
+    background: #6278df;
+    color: white;
+    height: 43px;
+    width: 40px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 28px;
+    position: relative;
+    top: 3px;
+
+}
+
+.own-menu .nav-link a{
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+}
+
+
+/* slider */
+.slider-section{
+    background: url(img/mbr-10.jpg) no-repeat center center;
+    padding: 180px 0;
+    position: relative;
+    z-index: 1;
+}
+.slider-section::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+
+
+.slider-caption h2{
+    margin-bottom: 50px;
+    font-size: 46px;
+}
+.slider-caption h4{
+    margin-bottom: 535;
+}
+
+.slider-caption .form-control{
+    padding: 18px 20px;
+
+}
+
+.slider-caption .btn{
+    padding: 11px 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+
+/* about section */
+
+
+.about-section{
+    background: #6279df1a;
+}
+.about-text{
+    margin-top: 120px;
+}
+.about-text .lead{
+    font-size: 25px;
+    line-height: 2.7 rem;
+}
+
+
+/* feature section */
+
+.feature-item{
+    height: auto; 
+    box-shadow: 2.5px 4.33px 30px 0 rgba(0, 0, 0, 0.116);
+}
+
+.img-sec{
+    width: 40%;
+}
+.img-sec img{
+    max-width: 100%;
+    height: 100%;
+    border-radius: 5px 0 0 5px;
+}
+.text-sec{
+    width: 60%;
+    height: auto;
+    padding: 25px;
+    border-radius: 0 5px 5px 0;
+}
+
+.portfolio-item a{
+    position: relative;
+    display: block;
+}
+.portfolio-item a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(98,120,223,.6);
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+}
+.portfolio-item:hover  a::after{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/* pricing section */
+
+.pricing-item{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(0, 0, 0, 0.116);
+}
+.pricing-item ul{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 60px;
+    margin-bottom: 45px;
+}
+.pricing-item ul li{
+    font-size: 20px;
+}
+.pricing-item ul li span{
+    width: 40px;
+    font-weight: bold;
+    font-size: 25px;
+    display: inline-block;
+    color: rgba(98,120,223);;
+}
+
+.pricing-item .pricing-button{
+    padding: 30px;
+}
+.pricing-item .pricing-button a{
+    padding: 15px 10px;
+}
+
+
+
+.author-info{
+    width: 90px;
+    margin: 0 auto;
+}
+.author-info img{
+    margin-right: 20px;
+}
+.author-details{
+    text-align: left;
+    float: left;
+    width: 70px;
+    margin: 0 auto;
+}
+.author-details h5{
+    margin-top: 10px;
+}
+
+
+.about-section{
+    padding: 120px;
+}
+.about-section .card{
+    width: 250px;
+    padding: 30px;
+}
+.about-section .card img{
+    width: 100px;
+    height: auto;
+    margin-top: -60px;
+    box-shadow: 1px 1px 40px rgba(0, 0, 0, 0.274);
+}
+.about-section .card h6{
+    font-size: large;
+    font-weight: 200;
+}
+.about-section .card .button{
+    margin-left: -15px;
+}
+
+
+
+.p{
+    text-align: justify;
+}
+
+
+
+.form-box{
+    border-radius: 5px;
+    width: 700px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 90px;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.199);
+}
+.form-box input,textarea{
+    height: 70px;
+}
+.form-box a{
+    
+    padding: 10px 20px;
+}
+
+
+
+.appstore-section span{
+    color: white;
+}
+.appstore-section a{
+    padding: 20px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.appstore-section a:hover{
+    color: white !important;
+}
+.appstore-section .btn-no1:hover span{
+    color: white !important;
+}
+.appstore-section .btn-no1 span{
+    color:#5BA533;
+}
+
+
+
+footer{
+    background-color: #F7F9FF;
+}
